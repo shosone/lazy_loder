@@ -1,0 +1,15 @@
+digraph {
+	leaf_0 [shape=box]
+	leaf_1 [shape=box]
+	leaf_2 [shape=box]
+	node_0 [shape=box]
+	node_0 -> leaf_0
+	node_0 -> leaf_1
+	node_1 [shape=box]
+	node_1 -> leaf_1
+	node_1 -> node_0
+	node_2 [shape=box]
+	node_2 -> node_0
+	node_2 -> leaf_2
+	node_2 -> node_2
+}
